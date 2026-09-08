@@ -7715,3 +7715,72 @@ body.dark-mode .dark-mode-toggle {
 body.dark-mode .dark-mode-toggle:hover {
   background: rgba(255,255,255,.12) !important;
 }
+/* =========================================================
+   DARK MODE — ICON VISIBILITY FIX
+   ========================================================= */
+
+/* Tools & Platforms icons */
+body.dark-mode .tools img,
+body.dark-mode .tools svg,
+body.dark-mode .tool img,
+body.dark-mode .tool svg,
+body.dark-mode .tools-grid img,
+body.dark-mode .tools-grid svg,
+body.dark-mode .tool-icon img,
+body.dark-mode .tool-icon svg {
+  filter: brightness(0) invert(1) !important;
+  opacity: 0.88 !important;
+}
+
+/* Font/icon based tools */
+body.dark-mode .tools i,
+body.dark-mode .tool i,
+body.dark-mode .tools .icon,
+body.dark-mode .tool .icon {
+  color: #f1f3ef !important;
+  fill: #f1f3ef !important;
+}
+
+/* SVG paths */
+body.dark-mode .tools svg path,
+body.dark-mode .tools svg circle,
+body.dark-mode .tools svg rect,
+body.dark-mode .tools svg polygon {
+  fill: #f1f3ef !important;
+  stroke: #f1f3ef !important;
+}
+
+/* ---------- SOCIAL ICONS ---------- */
+
+body.dark-mode .socials a,
+body.dark-mode .social-links a,
+body.dark-mode .social a,
+body.dark-mode footer a {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .socials svg,
+body.dark-mode .social-links svg,
+body.dark-mode .social svg,
+body.dark-mode footer svg {
+  color: #f1f3ef !important;
+  fill: #f1f3ef !important;
+  stroke: #f1f3ef !important;
+}
+
+body.dark-mode .socials svg path,
+body.dark-mode .social-links svg path,
+body.dark-mode .social svg path,
+body.dark-mode footer svg path {
+  fill: #f1f3ef !important;
+  stroke: #f1f3ef !important;
+}
+
+/* If social icons are image files */
+body.dark-mode .socials img,
+body.dark-mode .social-links img,
+body.dark-mode .social img,
+body.dark-mode footer img {
+  filter: brightness(0) invert(1) !important;
+  opacity: 0.9 !important;
+}
