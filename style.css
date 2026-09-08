@@ -7446,3 +7446,272 @@ body.dark-mode .dark-mode-toggle:hover {
   }
 
 }
+/* =========================================================
+   DARK MODE — FULL SITE OVERRIDES
+   ========================================================= */
+
+body.dark-mode {
+  background: #101311 !important;
+  color: #f1f3ef !important;
+}
+
+/* ---------- HEADER / NAV ---------- */
+
+body.dark-mode header,
+body.dark-mode .site-header,
+body.dark-mode nav {
+  background: rgba(16, 19, 17, 0.88) !important;
+  color: #f1f3ef !important;
+  border-color: rgba(255,255,255,.10) !important;
+}
+
+body.dark-mode header a,
+body.dark-mode nav a,
+body.dark-mode .nav-link {
+  color: #d7ddd9 !important;
+}
+
+body.dark-mode header a:hover,
+body.dark-mode nav a:hover,
+body.dark-mode .nav-link:hover {
+  color: #ffffff !important;
+}
+
+body.dark-mode .logo,
+body.dark-mode .brand,
+body.dark-mode .site-title {
+  color: #ffffff !important;
+}
+
+/* ---------- GENERAL TEXT ---------- */
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #f3f5f2 !important;
+}
+
+body.dark-mode p {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode li {
+  color: #c4cbc6 !important;
+}
+
+body.dark-mode strong,
+body.dark-mode b {
+  color: #f1f3ef !important;
+}
+
+/* ---------- HERO ---------- */
+
+body.dark-mode .hero-title {
+  color: #f3f5f2 !important;
+}
+
+body.dark-mode .hero-title span {
+  color: #bfc6c1 !important;
+}
+
+body.dark-mode .hero-description {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .hero-eyebrow {
+  color: #9da8a1 !important;
+}
+
+body.dark-mode .hero-link {
+  color: #f1f3ef !important;
+  border-color: rgba(255,255,255,.22) !important;
+}
+
+body.dark-mode .hero-link:hover {
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,.45) !important;
+}
+
+/* ---------- SECTION HEADINGS ---------- */
+
+body.dark-mode .section-heading h2 {
+  color: #f3f5f2 !important;
+}
+
+body.dark-mode .section-number {
+  color: #8f9a93 !important;
+}
+
+body.dark-mode .work-intro p {
+  color: #aeb7b1 !important;
+}
+
+/* ---------- SERVICES / WHAT I DO ---------- */
+
+body.dark-mode .services h2,
+body.dark-mode .services h3,
+body.dark-mode .service-title,
+body.dark-mode .service-name {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .service-description,
+body.dark-mode .services p {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .service-item,
+body.dark-mode .service-row {
+  border-color: rgba(255,255,255,.10) !important;
+}
+
+body.dark-mode .service-number {
+  color: #8f9a93 !important;
+}
+
+/* ---------- SELECTED WORK ---------- */
+
+body.dark-mode .work .selected-post {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .work .selected-post-header {
+  border-color: rgba(255,255,255,.14) !important;
+}
+
+body.dark-mode .work .selected-post-number {
+  color: #8f9a93 !important;
+}
+
+body.dark-mode .work .selected-post-meta span {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .work .selected-post-meta span + span::before {
+  color: #68736c !important;
+}
+
+body.dark-mode .work .selected-post-info h3 {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .work .selected-post-info p {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .selected-post-image {
+  background: #171b18 !important;
+  border-color: rgba(255,255,255,.12) !important;
+  box-shadow: 0 18px 55px rgba(0,0,0,.28) !important;
+}
+
+/* ---------- EXPERIENCE ---------- */
+
+body.dark-mode .experience h2,
+body.dark-mode .experience h3,
+body.dark-mode .experience-title {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .experience p,
+body.dark-mode .experience-description {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .experience-item,
+body.dark-mode .experience-row {
+  border-color: rgba(255,255,255,.10) !important;
+}
+
+body.dark-mode .experience-date,
+body.dark-mode .experience-meta {
+  color: #8f9a93 !important;
+}
+
+/* ---------- CASE STUDIES ---------- */
+
+body.dark-mode .case-studies h2,
+body.dark-mode .case-studies h3,
+body.dark-mode .case-title {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .case-studies p,
+body.dark-mode .case-description {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .case-study,
+body.dark-mode .case-card {
+  border-color: rgba(255,255,255,.10) !important;
+  background: rgba(255,255,255,.025) !important;
+}
+
+/* ---------- TESTIMONIALS ---------- */
+
+body.dark-mode .testimonials h2,
+body.dark-mode .testimonials h3,
+body.dark-mode .testimonial-name {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .testimonials p,
+body.dark-mode .testimonial-text {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .testimonial,
+body.dark-mode .testimonial-card {
+  border-color: rgba(255,255,255,.10) !important;
+  background: rgba(255,255,255,.025) !important;
+}
+
+/* ---------- CONTACT ---------- */
+
+body.dark-mode .contact h2,
+body.dark-mode .contact h3 {
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .contact p {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .contact a {
+  color: #f1f3ef !important;
+}
+
+/* ---------- LINKS / BUTTONS ---------- */
+
+body.dark-mode a {
+  color: #dce2de;
+}
+
+body.dark-mode button {
+  color: #f1f3ef;
+}
+
+/* ---------- BORDERS / DIVIDERS ---------- */
+
+body.dark-mode hr {
+  border-color: rgba(255,255,255,.10) !important;
+}
+
+/* ---------- DARK MODE UTILITY ---------- */
+
+body.dark-mode .hero-live-time {
+  color: #aeb7b1 !important;
+}
+
+body.dark-mode .dark-mode-toggle {
+  background: rgba(255,255,255,.06) !important;
+  border-color: rgba(255,255,255,.18) !important;
+  color: #f1f3ef !important;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+  background: rgba(255,255,255,.12) !important;
+}
